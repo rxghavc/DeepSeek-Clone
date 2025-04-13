@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { assets } from "../assets/assets";
 
-const ChatLabel = ({openMenu = { open: true }, setOpenMenu}) => {
+const ChatLabel = ({openMenu = { open: false }, setOpenMenu}) => {
   return (
     <div className='flex items-center justify-between p-2 text-white/80 rounded-lg text-sm cursor-pointer'>
         <p className='truncate'>Chat Name Here</p>
