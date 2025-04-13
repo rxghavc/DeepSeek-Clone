@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <html lang="en">
         <body
-          className={`${inter.className} antialiased`}
+          suppressHydrationWarning className={`${inter.className} antialiased`}
         >
           {children}
         </body>
