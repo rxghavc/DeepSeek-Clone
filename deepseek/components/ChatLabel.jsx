@@ -4,8 +4,8 @@ import { assets } from "../assets/assets";
 
 const ChatLabel = ({openMenu = { open: false }, setOpenMenu}) => {
   return (
-    <div className='flex items-center justify-between p-2 text-white/80 rounded-lg text-sm cursor-pointer'>
-        <p className='truncate'>Chat Name Here</p>
+    <div className='flex items-center justify-between p-2 text-white/80 hover:bg-white/10 rounded-lg text-sm cursor-pointer'>
+        <p className='truncate hover:text-white/90'>Chat Name Here</p>
         <div className='group relative flex items-center justify-center h-6 w-6 aspect-square hover:bg-black/80 rounded-lg'>
             <Image src={assets.three_dots} alt='' className={`w-4 ${openMenu.open ? ' ' : 'hidden'} group-hover:block`}/>
             <div className={`absolute ${openMenu.open ? 'block' : 'hidden'} -right-36 top-6 bg-gray-700 rounded-xl w-max p-2`}>            
