@@ -1,4 +1,5 @@
 import OpenAI from "openai";
+import { getAuth } from "@clerk/nextjs/server";
 
 // Initialize OpenAI with DeepSeek API key
 const openai = new OpenAI({
