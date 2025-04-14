@@ -1,6 +1,6 @@
-# DeepSeek
+# DeepSeek Clone
 
-DeepSeek is a full-stack MERN (MongoDB, Express, React, Node.js) project designed to provide a seamless user experience for managing and interacting with AI-powered chat functionalities. This project leverages modern technologies like Next.js, Tailwind CSS, and Clerk for authentication.
+DeepSeek is a full-stack MERN (MongoDB, Express, React, Node.js) project that provides a seamless user experience for managing and interacting with AI-powered chat functionalities. This project leverages modern technologies like Next.js, Tailwind CSS, and Clerk for authentication.
 
 ## Features
 - AI-powered chat using OpenAI's API.
@@ -97,8 +97,18 @@ npm install
 - `assets/`: Static assets like images and icons.
 - `public/`: Publicly accessible files.
 
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/467c8112-fbf9-461c-b54c-f8c523a82963)
+![image](https://github.com/user-attachments/assets/0bb5704a-7b97-4667-a6b5-ad4322f0feec)
+![image](https://github.com/user-attachments/assets/06b1af42-efdb-4b3e-96cb-1fbd555aa4b6)
+![image](https://github.com/user-attachments/assets/cd48b430-be67-494d-9e14-b62ff8ebe13e)
+![image](https://github.com/user-attachments/assets/ed3a2046-de7d-4c14-a249-edb4fc92c680)
+![image](https://github.com/user-attachments/assets/7cf71e4a-ac03-4660-a494-fdc64fbdd609)
+
 ## Acknowledgments
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Clerk](https://clerk.dev/)
 - [OpenAI](https://openai.com/)
+- [GreatStack](https://www.youtube.com/watch?v=uJPa_18Zf1I&t=12081s&pp=ygUKR3JlYXRTdGFjaw%3D%3D)
