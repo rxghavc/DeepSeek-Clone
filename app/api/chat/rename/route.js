@@ -10,6 +10,7 @@ export async function POST(req) {
             return NextResponse.json({ success: false, message: "User not authenticated" });
         }
         const { chatID, name } = await req.json();
+        //Connect to DB and update the chat name
         await connectDB();
         await Chat.findOneAndUpdate({_id: chatID, userID}, {name});
         return NextResponse.json({ success: true, message: "Chat renamed successfully" });
