@@ -1,3 +1,4 @@
+//If any of these imports generate an error, check debug logs activity cause it should not be happening
 import { assets } from '@/assets/assets'
 import { useAppContext } from '@/context/AppContext'
 import axios from 'axios'
